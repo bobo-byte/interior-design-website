@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+.navbar{
+ text-align: center;
+ z-index: 0;
+ background-color: none;
+}
+.logo p{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.headline{
+    text-align: center;
+    background:  #5D86B9 url(./images/header.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.bigheading{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    padding-top: 6rem;
+}
+.mheading{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
