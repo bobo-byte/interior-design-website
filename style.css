@@ -6,15 +6,29 @@
 body{
     font-family: 'Playfair Display', serif;
 }
-.navbar{
+.navbar {
  text-align: center;
  z-index: 0;
  background-color: none;
+ display: flex;
+ justify-content: center;
 }
+
+.logo {
+    flex: 2;
+}
+
+.login {
+    font-weight: bold;
+    font-size: 1rem;
+    align-self: center;
+}
+
 .logo p{
     font-weight: bold;
     font-size: 2rem;
 }
+
 .headline{
     text-align: center;
     background:  #5D86B9 url(./images/header.jpg) no-repeat;
